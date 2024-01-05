@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 
-mongoose.connect("mongodb+srv://meetjn2542:JDaiMNU5JtobbdKL@meet.hafzzsb.mongodb.net/todos")// .env
+mongoose.connect("")// .env
 
 const todoschema = mongoose.Schema ({
     title: String,
