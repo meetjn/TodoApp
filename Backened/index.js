@@ -10,18 +10,7 @@ app.use(cors({
     origin: "https://localhost:5173"
 }))
 
-// Middleware example (uncomment and modify as needed)
-// function userMiddleware(req, res, next) {
-//   if (/* some condition */) {
-//     // Handle the condition, maybe send an error response
-//     res.status(403).json({ msg: "Access forbidden" });
-//   } else {
-//     // Continue to the next middleware or route handler
-//     next();
-//   }
-// }
 
-// app.use(userMiddleware);  // Apply middleware globally
 
 app.post('/Todo', async function(req, res) {
     const createPayload = req.body;
