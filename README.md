@@ -1,6 +1,6 @@
 ## TODO App
 
-This project contains a minimal Todo App
+This project contains a implementation of minimal Todo App. Tech stack is MERN. 
 
 Key Features include:
 
